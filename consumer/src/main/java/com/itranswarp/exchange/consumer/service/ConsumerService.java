@@ -7,7 +7,6 @@ import org.springframework.web.client.RestTemplate;
 /**
  * @Description：使用RestTemplate调用注册子模块接口方法
  * @Author :xyc
- * @Date :16:14 2020/8/27
  */
 @Service
 public class ConsumerService {

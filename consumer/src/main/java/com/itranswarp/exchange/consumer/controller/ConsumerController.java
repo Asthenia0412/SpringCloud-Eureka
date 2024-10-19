@@ -8,7 +8,6 @@ import com.itranswarp.exchange.consumer.service.ConsumerService;
 /**
  * @Description：消费端控制器
  * @Author :xiaoyc
- * @Date :16:18 2020/8/27
  */
 @RequestMapping("consumer")
 @RestController

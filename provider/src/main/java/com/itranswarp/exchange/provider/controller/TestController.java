@@ -4,8 +4,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Description：服务端控制器
- * @Author :zks
- * @Date :16:07 2020/8/27
+ * @Author :xiaoyc
  */
 @RequestMapping("test")
 @RestController
