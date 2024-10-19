@@ -116,3 +116,16 @@ idea最幽默的一点是：它往往会将最新的Springboot版本推荐给你
 原因：@SpringBootApplication的扫描路径只包含其同级别与更低级别的情况。你把包放的比这个启动类还高级，除非你额外用配置类去读取这些包中的class,不然它们根本没法被启动类加载到ioc容器里面去。那spring就无法工作了
 
 > 这样的结果是：当你尝试使用get请求访问时，会报白名单的错误
+
+## C.Consumer模块启动无报错-启动成功后停机,与Eureka-Server失联
+
+> 原因：缺失web依赖，在Consumer的pom文件中补上
+
+```xml
+<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>6.1.10</version>
+        </dependency>
+```
+
